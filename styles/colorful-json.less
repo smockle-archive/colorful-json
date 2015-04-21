@@ -1,0 +1,17 @@
+@import "colors";
+
+// Style JSON keys and values differently
+atom-text-editor::shadow .meta.structure.dictionary.json {
+  // Keys
+  & > .string.quoted.json,
+  .punctuation.definition.string.json {
+    color: @blue;
+  }
+
+  // Values
+  & > .value.json > .string.json,
+  .value:not(:first-child) .punctuation.definition.string.json,
+  .array > .string.json .punctuation.definition.string.json {
+    color: @green;
+  }
+}
