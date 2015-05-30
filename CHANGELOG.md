@@ -2,7 +2,7 @@
 
 ### New features
 
-* Support Atom Editor syntax themes besides One Dark ([#1][1])
+* Support Atom Editor syntax themes besides One Dark [#1]([1])
 
 ### Bug fixes
 
