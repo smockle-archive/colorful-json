@@ -1,17 +1,7 @@
-@import "colors";
+@import "syntax-variables";
 
 // Style JSON keys and values differently
-atom-text-editor::shadow .meta.structure.dictionary.json {
-  // Keys
-  & > .string.quoted.json,
-  .punctuation.definition.string.json {
-    color: @blue;
-  }
-
-  // Values
-  & > .value.json > .string.json,
-  .value:not(:first-child) .punctuation.definition.string.json,
-  .array > .string.json .punctuation.definition.string.json {
-    color: @green;
-  }
+atom-text-editor::shadow .meta.structure.dictionary.json:not(.value) > .string.quoted.double.json,
+atom-text-editor::shadow .meta.structure.dictionary.json:not(.value) > .string.quoted.double.json > .punctuation.definition.string.json {
+  color: @syntax-color-function;
 }
