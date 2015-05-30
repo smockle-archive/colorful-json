@@ -2,7 +2,7 @@
 
 ### New features
 
-* Support Atom Editor syntax themes besides One Dark [(#1)](smockle/colorful-json#1)
+* Support Atom Editor syntax themes besides One Dark [(#1)](https://github.com/smockle/colorful-json/issues/1)
 
 ### Bug fixes
 
