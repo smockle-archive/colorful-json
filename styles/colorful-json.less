@@ -1,7 +1,7 @@
 @import "syntax-variables";
 
 // Style JSON keys and values differently
-atom-text-editor::shadow .meta.structure.dictionary.json:not(.value) > .string.quoted.double.json,
-atom-text-editor::shadow .meta.structure.dictionary.json:not(.value) > .string.quoted.double.json > .punctuation.definition.string.json {
+atom-text-editor.editor .syntax--meta.syntax--structure.syntax--dictionary.syntax--json:not(.syntax--value) > .syntax--string.syntax--quoted.syntax--double.syntax--json,
+atom-text-editor.editor .syntax--meta.syntax--structure.syntax--dictionary.syntax--json:not(.syntax--value) > .syntax--string.syntax--quoted.syntax--double.syntax--json > .syntax--punctuation.syntax--definition.syntax--string.syntax--json {
   color: @syntax-color-function;
 }
