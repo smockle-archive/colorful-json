@@ -1,7 +1,7 @@
 {
   "name": "colorful-json",
   "main": "./lib/colorful-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Differentiates keys and values in JSON files.",
   "repository": "https://github.com/smockle/colorful-json",
   "license": "ISC",
